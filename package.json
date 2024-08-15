@@ -4,12 +4,10 @@
   },
   "dependencies": {
     "preline": "^2.4.1",
-    "rippleui": "^1.12.1"
+    "rippleui": "^1.12.1",
+    "ui": "^0.2.4"
   },
   "scripts": {
     "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   }
 }
-
-
-
