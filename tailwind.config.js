@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./index.html", // Tambahkan path ini untuk mendeteksi index.html
+    "./index.html",
     "./src/**/*.{html,js}",
-    "./node_modules/preline/dist/*.js"
+    "./node_modules/preline/dist/*.js" 
   ],
   theme: {
     extend: {},

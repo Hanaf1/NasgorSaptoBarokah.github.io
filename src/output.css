@@ -2312,10 +2312,6 @@ html {
   margin-top: 1.25rem;
 }
 
-.mt-auto {
-  margin-top: auto;
-}
-
 .block {
   display: block;
 }
@@ -2611,6 +2607,11 @@ html {
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
@@ -2629,26 +2630,6 @@ html {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
-
-.bg-gray-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-}
-
-.bg-gray-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
-
-.bg-gray-1 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(var(--gray-1) / var(--tw-bg-opacity));
 }
 
 .bg-opacity-50 {
@@ -2697,12 +2678,9 @@ html {
   padding: 2rem;
 }
 
-.p-48 {
-  padding: 12rem;
-}
-
-.p-44 {
-  padding: 11rem;
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .px-3 {
@@ -2725,19 +2703,9 @@ html {
   padding-bottom: 0.5rem;
 }
 
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .text-center {
@@ -3116,16 +3084,12 @@ html {
     margin-bottom: 1.25rem;
   }
 
-  .lg\:mt-0 {
-    margin-top: 0px;
+  .lg\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .lg\:mt-8 {
     margin-top: 2rem;
-  }
-
-  .lg\:mt-10 {
-    margin-top: 2.5rem;
   }
 
   .lg\:grid-cols-2 {
